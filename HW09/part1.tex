@@ -1,0 +1,29 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[turkish]{babel} %Türkçe bölüm isimleri
+\usepackage[utf8]{inputenc} %Türkçe karakterler
+\usepackage[T1]{fontenc} %Türkçe heceleme
+\usepackage{caption}
+\title{BIL101 HW 09}
+\author{Furkan OZEV}
+\begin{document}
+\maketitle
+\section{Reinforcement learning nedir ve diğer makine öğrenmesi yöntemlerinden farkı nedir? Yarım sayfada kendi cümlelerinizle açiklayin.}
+Reinforcement Learning, Machine Learning in bir alanı olup bulunduğu ortamı algılayan fakat bu ortam hakkında herhangi bir bilgisi olmayan (environment) ve bu ortamı öğrenmeye çalışan yapay zekanın(agent) ortamı keşfederek bu ortam hakkında bilgi edinmek üzere yapay zekada kullanılan öğrenme yöntemidir.\\ \\
+Agent in bir başlangıc noktası ve hedef noktası vardır. Bu hedef noktasına ulaşmak için kendi başina kararlar alabilir agent yaptiği her hamleye veya aldiği her karara göre enviroment tarafından bir reward alıyor yaptiği tercih hedefi daha erken bulmasına yardımcı oluyorsa pozitive reward(ödül) hedefi bulmasını zorlaştırıyorsa negative reward verilir. Hedefi bulmasına etkisi olmayan kararlar için de 0 reward alır ve böylece bu hedefe ulaşmak için nasıl doğru kararlar alabileceğini öğrenir.\\ \\
+Özetlemek gerekirse egitmen yapay zekayı teşvik ederek bellirli bir amaç doğrultusunda yönlendirebilir.\\ \\
+Takviyeli öğrenmede bir eğitmen bulunur fakat diğer öğrenme yöntemlerindeki gibi sisteme çok detay vermez veya veremez. Bunun yerine agentin aldığı kararlar doğrultusunda agentı ödüllendirir ve yanlışlar için de cezalandırır.
+\newpage
+\section{Görüntü işleme, 2 boyutlu 3 boyutlu grafik tekniklerinin birbirinden farkı nedir? 3 boyutlu grafik
+işlemenin 3 temel adımını açıklayınız. Yarım sayfada kendi cümlelerinizle açıklayın.}
+Görüntü işleme bir görüntüyü geliştirmek ve hatta anlamak amacıyla kullanilabilecek desenleri belirlemek için bir görüntüdeki piksellerin analizine odaklanmasıdır. Kısaca Görüntü işleme, 2 boyutlu görüntülerin analizini ele alır. \\ \\
+2D grafikler görüntü üretmek için 2 boyutlu şekillerin (çember,kare v. b)piksel desenine çevrilmesine odaklanır yani 2D grafikler 2 boyutlu şekillerin görüntüye dönüştürülmesiyle ilgilenir. \\ \\
+2D grafiklerde 2 boyutlu şekillerin/ortamların/sahnelerin görüntülere dönüştürülmesinin tersine 3D 3 boyutlu şekillerin görüntüye dönüştürülmesiyle ilgilenir. \\ \\
+\begin{itemize}  
+\item Modeling(modelleme ortamının oluşturulması): 3D grafiklerde sahnenin sayısal olarak kodlanmıs veri ve algoritmalardan kurulmasıdır.\\
+\item Rendering (resim oluşturma): belirli bir konumdaki nesnelerin bir kamera tarafından elde edilen fotografın sahnede nasıl görüneceğinin hesaplanarak sahnenin 2 boyutlu görüntüsünün üretilmesidir. \\
+\item Displaying (görüntüleme): Oluşturulan 3 boyutlu resmin şekillerin görüntülenmesi aşamasıdır. \\
+\center \em FURKAN OZEV \\
+\center \em furkanozev@gmail.com
+
+ \end{itemize}
+\end{document}
